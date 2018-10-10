@@ -21,7 +21,7 @@ const Links = () => {
         href="https://galaxy.dev.denali-sr.com/v2/2018/10/09"
         target="_new"
       >
-        <LinkSpan>GALAXY</LinkSpan>
+        <LinkSpan>GALAXY (NBA Tracking API)</LinkSpan>
       </GeneralLink>
     </LinksOuterContainer>
   );
