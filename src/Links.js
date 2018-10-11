@@ -5,24 +5,24 @@ const Links = () => {
   return (
     <LinksOuterContainer>
       <Header>API PLUS MONITORING TOOL</Header>
+      <GeneralLink
+        href="https://galaxy.dev.denali-sr.com/v2/2018/10/09"
+        target="_blank"
+      >
+        <LinkSpan>GALAXY (NBA Tracking API)</LinkSpan>
+      </GeneralLink>
 
       <GeneralLink
         href="https://api-plus-admin.dev.denali-sr.com/"
-        target="_new"
+        target="_blank"
       >
         <LinkSpan>API PLUS</LinkSpan>
       </GeneralLink>
 
-      <GeneralLink href="https://mocapai.com" target="_new">
+      <GeneralLink href="https://mocapai.com" target="_blank">
         <LinkSpan>MOCAP AI</LinkSpan>
       </GeneralLink>
 
-      <GeneralLink
-        href="https://galaxy.dev.denali-sr.com/v2/2018/10/09"
-        target="_new"
-      >
-        <LinkSpan>GALAXY (NBA Tracking API)</LinkSpan>
-      </GeneralLink>
     </LinksOuterContainer>
   );
 };
